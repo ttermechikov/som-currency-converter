@@ -1,0 +1,17 @@
+{
+  "name": "som-currency-converter",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev --no-cache --parallel --continue"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "turbo": "^1.9.3"
+  }
+}
